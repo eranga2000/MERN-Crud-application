@@ -29,7 +29,7 @@ Before you begin, ensure you have the following installed:
     Create a `.env` file in the `server` directory. This file will store your environment-specific configurations. Add the following variables, replacing the placeholder values with your actual configuration:
     ```env
     PORT=3001 # Or any port you prefer for the server
-    MONGODB_URI=mongodb://localhost:27017/your_database_name # Your MongoDB connection string
+    MONGODB_URI=include your link here # Your MongoDB connection string
     # Add any other environment variables your server might need
     ```
     *Note: Ensure the `.env` file is listed in your `server/.gitignore` file to prevent committing sensitive information.*
