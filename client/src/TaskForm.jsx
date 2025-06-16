@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
-
+import FilePicker from "./FilePicker"; // Assuming FilePicker is in the same directory
 function TaskForm({ initialData , onSubmit }) {
   const [formData, setFormData] = useState({
     itemName: "",
@@ -185,7 +185,8 @@ function TaskForm({ initialData , onSubmit }) {
             />
           </div>
         </div>
-
+    
+<FilePicker />
         <button
           type="submit"
           className="bg-blue-600 text-white font-semibold py-2 px-6 rounded-lg shadow-md hover:bg-blue-700 hover:shadow-lg transition-all duration-200 ease-in-out"
